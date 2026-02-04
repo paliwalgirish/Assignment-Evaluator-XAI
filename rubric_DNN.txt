@@ -1,0 +1,30 @@
+Q1 (2.5)
+
+Perceptron neuron equation correctly explained with weights, inputs, and bias using 
+𝑤𝑇𝑥+𝑏wTx+b (0.5)
+Binary classification process explained using an activation function (step or sigmoid) and decision boundary concept (0.5)
+XOR problem explained clearly, including non-linear separability and why a single-layer perceptron fails (0.75)
+MLP solution for XOR explained with at least one hidden layer and non-linear activation function (intuition or logic) (0.5)
+One appropriate real-life example where MLP is preferred over a single-layer perceptron (0.25)
+
+Q2 (3.0)
+
+Batch Gradient Descent, Stochastic Gradient Descent (SGD), and Mini-batch Gradient Descent described correctly (0.75)
+Comparison of GD variants based on update frequency, stability, and speed clearly explained (0.75)
+Training flow of neural network explained in correct order: forward pass → loss computation → backpropagation → weight update (0.5)
+Explanation of backpropagation using the chain rule to compute gradients (conceptual clarity) (0.5)
+Numerical example showing one weight update using learning rate and gradient value with correct formula (0.5)
+
+Q3 (2.0)
+
+Underfitting and overfitting defined correctly with clear distinction (0.5)
+Training vs validation performance trends explained (loss/accuracy behavior) (0.5)
+Bias–variance trade-off explained, relating underfitting to high bias and overfitting to high variance (0.5)
+One example scenario provided and one valid method mentioned to reduce underfitting and one to reduce overfitting (0.5)
+
+Q4 (2.5)
+
+Mean Squared Error (MSE) explained correctly with one regression task example (0.75)
+Cross-Entropy loss explained correctly with one classification task example (0.75)
+Reason why cross-entropy is preferred for classification explained (probability interpretation and gradient behavior) (0.5)
+Explanation of any two regularization methods (L1 / L2 / Dropout) and how they reduce overfitting (0.5)

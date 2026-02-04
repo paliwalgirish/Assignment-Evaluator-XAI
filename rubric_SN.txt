@@ -1,0 +1,16 @@
+Q1 (4.0)
+Correct identification of VLAN / trunk mismatch or EtherChannel configuration issue (1.0)
+Explanation of why specific VLANs fail while others work (logical reasoning) (1.0)
+Proper steps to configure EtherChannel trunk and allow VLANs consistently (1.0)
+Mention of troubleshooting / Cisco IOS commands (show etherchannel, show vlan, show interfaces trunk, etc.) (1.0)
+
+Q2 (3.0)
+Clear explanation of switched vs shared network concept (0.75)
+Reduction of collisions + dedicated bandwidth / collision domains (0.75)
+Full-duplex communication or MAC-based intelligent forwarding (0.75)
+Any additional benefit (VLANs, scalability, security, segmentation) (0.75)
+
+Q3 (3.0)
+Speed and performance factors (port speed, throughput, latency) (1.0)
+Scalability considerations (VLANs, port density, modularity, PoE, stacking) (1.0)
+Security and management features (ACLs, port security, 802.1X, monitoring, redundancy) (1.0)
