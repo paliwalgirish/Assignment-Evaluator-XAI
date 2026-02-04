@@ -49,30 +49,6 @@ Assignment_Evaluator/
 └── outputs/ # Generated results (ignored in Git)
 
 
----
-
-## 🚀 How to Run Locally
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-
-☁️ Deployment (Streamlit Cloud)
-
-Push project to GitHub
-
-Go to https://streamlit.io/cloud
-
-Click New App
-
-Select repository
-
-Main file: app.py
-
-Deploy
-
-⚠️ Important Notes
-
 Marks are NOT auto-modified based on similarity.
 
 Semantic similarity is used only for fairness and instructor review.
@@ -83,20 +59,14 @@ Instructor makes final decisions.
 
 📜 Academic Disclaimer
 
-This system provides decision support using Explainable AI. It does not replace human evaluation.
+Note : This system provides decision support using Explainable AI. It does not replace human evaluation.
 
 👤 Author
 
-Dr. Girish Paliwal
+Prof(Dr.) Girish Paliwal
 Auto Assignment Evaluator with XAI
 
 
-Commit it:
-
-```powershell
-git add README.md
-git commit -m "Add README"
-git push
 
 ✅ 2. Architecture Diagram (paper + documentation)
 
@@ -143,90 +113,4 @@ You can paste this diagram into Word / PPT / Paper:
                 └─────────────────────┘
 
 
-You can redraw this in PowerPoint / draw.io if needed.
 
-✅ 3. Paper-Ready System Description (you can paste into your research paper)
-System Overview
-
-This work presents an Explainable AI based automatic assignment evaluation framework. The system accepts PDF submissions and evaluates answers using a structured rubric combined with semantic similarity. Student responses are embedded using Sentence-BERT, enabling concept-level matching rather than keyword comparison.
-
-Rubric items are evaluated independently, allowing partial credit and explainable scoring. In addition, TF-IDF and SBERT-based similarity modules detect potential plagiarism and conceptual overlap among submissions.
-
-To improve fairness, semantic similarity is also used as a grading consistency check. When two answers are conceptually similar but receive significantly different marks, the system flags possible under-scoring for instructor review. Importantly, marks are never automatically modified, maintaining a human-in-the-loop evaluation paradigm.
-
-The framework generates student-wise PDF reports, similarity analytics, and fairness recommendations. The system is deployed using Streamlit Cloud, providing a scalable web interface.
-
-Key contributions include:
-
-Rubric-driven explainable evaluation
-
-Semantic similarity based fairness auditing
-
-Automated plagiarism analysis
-
-Human-centered grading recommendations
-
-✅ 4. Deployment Screenshots (what to capture)
-
-Take screenshots of:
-
-📸 Screenshot 1 – GitHub Repository
-
-Show:
-
-app.py
-
-requirements.txt
-
-README.md
-
-Title:
-
-Project Repository on GitHub
-
-📸 Screenshot 2 – Streamlit Cloud Deploy Page
-
-Show:
-
-Repo selected
-
-app.py selected
-
-Deploy button
-
-Title:
-
-Streamlit Cloud Deployment Configuration
-
-📸 Screenshot 3 – Running Web App
-
-Show:
-
-Rubric box
-
-File uploader
-
-Evaluate button
-
-Title:
-
-Deployed Assignment Evaluator Interface
-
-📸 Screenshot 4 – Results Dashboard
-
-Show:
-
-Marks table
-
-Semantic similarity table
-
-Title:
-
-Explainable Evaluation and Fairness Analysis Dashboard
-
-These four screenshots are enough for:
-
-✅ paper
-✅ thesis
-✅ viva
-✅ project report
